@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+<!--<WebView-->
+    <!--android:id="@+id/webview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"></WebView>-->
+    <!--<com.kpw.demo.Mygrid-->
+        <!--android:id="@+id/grid1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@android:color/holo_green_light"-->
+        <!--app:column="30"-->
+        <!--app:row="10" />-->
+
+    <!--<com.kpw.demo.Mygrid-->
+        <!--android:id="@+id/grid2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/grid1"-->
+        <!--android:background="@android:color/holo_green_light"-->
+        <!--app:column="18"-->
+        <!--app:row="5" />-->
+
+    <!--<com.kpw.demo.Mygrid-->
+        <!--android:id="@+id/grid3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/grid2"-->
+        <!--android:background="@android:color/holo_green_light"-->
+        <!--app:column="10"-->
+        <!--app:row="9" />-->
+</RelativeLayout>
